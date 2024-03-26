@@ -20,13 +20,13 @@ jobs:
             node-version: 18.x
       
       - name: Installing NPM packages
-        uses: npm ci
+        run: npm ci
       
       - name: Building the app
-        uses: npm run build
+        run: npm run build
 
       - name: Testing the build
-        uses: npm run test
+        run: npm run test
       
       - name: Uploading pages build artifact
         uses: actions/upload-pages-artifact@v3
