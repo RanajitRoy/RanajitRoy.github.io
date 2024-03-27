@@ -1,7 +1,8 @@
 import React from "react";
 import "./Header.css";
+import { type GlobalStateProp } from "../lib/types";
 
-function Header() {
+function Header(props:GlobalStateProp) {
     return (
         <div className="Header">
             <div>
