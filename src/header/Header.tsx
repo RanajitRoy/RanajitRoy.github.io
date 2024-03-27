@@ -10,7 +10,7 @@ function Header(props:GlobalStateProp) {
                 <span></span>
                 <span></span>
                 <span></span>
-                <img src={prof_pic} className="ProfilePic" />
+                <img src={prof_pic} className="ProfilePic" alt="Profile" />
             </div>
             <div className="NameTitle">
                 <p>Ranajit Roy</p>
