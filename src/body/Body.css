@@ -1,0 +1,9 @@
+.Body{
+    max-width: 1000px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    background-size: 10px;
+    background-color: #ffffff;
+}
