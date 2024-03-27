@@ -1,9 +1,9 @@
 import React from "react";
 import "./Section.css";
 
-function Section() {
+function Section(props:{sectionId:string}) {
     return (
-        <div className="Section">
+        <div className="Section" id={props.sectionId}>
             Section
         </div>
     );

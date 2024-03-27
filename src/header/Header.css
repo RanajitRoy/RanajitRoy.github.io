@@ -6,6 +6,9 @@
     justify-content: start;
     max-width: 400px;
     width: 40vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
 }
 
 .Profile {
@@ -29,17 +32,17 @@
 
 
 .Profile span:nth-child(1) {
-    border-radius: 40% 78% 69% 43% / 48% 50% 59% 55%;
+    border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
     transition: 0.5s;
     animation: animate 6s linear infinite;
 }
 .Profile span:nth-child(2) {
-    border-radius: 40% 62% 63% 48% / 41% 44% 56% 59%;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0.5s;
     animation: animate 4s linear infinite;
 }
 .Profile span:nth-child(3) {
-    border-radius: 45% 45% 74% 60% / 38% 56% 51% 87%;
+    border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
     transition: 0.5s;
     animation: animate2 10s linear infinite;
 }
@@ -112,6 +115,19 @@
     margin: 30px 0 0 0;
 }
 
-.Navbar > li {
-    margin: 20px 0 0 0;
+.NavBarOpt {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.NavBarOpt:hover {
+    background-color: #adadad;
+}
+
+.Active {
+    background-color: #f1f1f1 !important;
 }
