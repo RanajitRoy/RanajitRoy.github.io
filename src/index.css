@@ -1,3 +1,10 @@
+:root {
+  --theme-color-light: white;
+  --theme-color-dark: #c2c2c2;
+  --highlight-fixed: #f1f1f1;
+  --highlight-hover: #adadad;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +17,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--theme-color-dark);
+  border-radius: 20px;
+  border: 0;
 }
