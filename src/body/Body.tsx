@@ -16,7 +16,7 @@ function Body(props: GlobalStateProp) {
         <div className="Body">
             <div className="HomeHeader">
                 <label htmlFor="header-active"><ReactSVG src={menu_svg} /></label>
-                <img src={process.env.PUBLIC_URL+'/android-chrome-512x512.png'} alt="logo"/>
+                <img id="logo1" src={process.env.PUBLIC_URL+'/logo.png'} alt="logo"/>
             </div>
             <Home />
             <About />
