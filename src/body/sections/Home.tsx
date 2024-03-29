@@ -7,24 +7,7 @@ function Home() {
     return (
         <div className="Section Home" id="home">
             <img src={style_pic} alt="style_pic" />
-            {/* <div className="HomeFlyers flyer1">
-                <img src={backend_img} alt="backend"/>
-                <div className="wavy-line wavy-line1" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/wavy.svg'})`}} ></div>
-                <div className="wavy-line wavy-line2" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/wavy.svg'})`}} ></div>
-                <div className="wavy-line wavy-line3" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/wavy.svg'})`}} ></div>
-            </div>
-            <div className="HomeFlyers flyer2">
-                <img src={frontend_img} alt="frontend" />
-                <div className="wavy-line wavy-line1" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/wavy.svg'})`}} ></div>
-                <div className="wavy-line wavy-line2" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/wavy.svg'})`}} ></div>
-                <div className="wavy-line wavy-line3" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/wavy.svg'})`}} ></div>
-            </div>
-            <div className="HomeFlyers flyer3">
-                <img src={db_img} alt="db" />
-                <div className="wavy-line wavy-line1" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/wavy.svg'})`}} ></div>
-                <div className="wavy-line wavy-line2" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/wavy.svg'})`}} ></div>
-                <div className="wavy-line wavy-line3" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/wavy.svg'})`}} ></div>
-            </div> */}
+            <p id="hi-text" >Hi!</p>
             <div className="HomeTextBox">
                 <p>Welcome to My Portfolio!</p>
             </div>
