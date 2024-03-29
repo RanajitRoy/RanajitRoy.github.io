@@ -14,7 +14,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
+    height: 8vh;
+    max-height: 80px;
     background: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255,255,255,0));
     z-index: 1;
 }
@@ -29,6 +30,13 @@
     display: block;
     height: 70%;
 }
+
+#menu_svg {
+    aspect-ratio: 1/1;
+    max-width: 45px;
+    width: 6vh;
+}
+
 
 @media (max-width: 900px) {
     .Body{
