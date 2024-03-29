@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App" style={{ 
-      backgroundImage: `url(${process.env.PUBLIC_URL + '/bg-img.png'})` 
+      backgroundImage: `url(${process.env.PUBLIC_URL + '/bg-img.png'})`
     }}>
       <Header globalState={globalState} setGlobalState={setGlobalState} />
       <Body globalState={globalState} setGlobalState={setGlobalState} />

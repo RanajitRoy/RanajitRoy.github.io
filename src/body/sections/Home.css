@@ -3,17 +3,6 @@
     position: relative;
 }
 
-.HomeHeader {
-    position: relative;
-    height: 100px;
-}
-.HomeHeader > img {
-    display: block;
-    margin-inline: auto;
-    padding-block: 1%;
-    height: 50%;
-}
-
 .Home > img {
     position: absolute;
     bottom: 0;
@@ -31,12 +20,12 @@
 
 .flyer1 {
     right:20%;
-    top: 20%;
+    top: 10%;
     animation: homeflyer1 1s ease-in;
 }
 .flyer2 {
     right:30%;
-    top: 30%;
+    top: 25%;
     animation: homeflyer2 1s ease-in;
 }
 .flyer3 {
@@ -136,4 +125,18 @@
     100% {
       background-position: 100% 100%;
     }
-  }
+}
+
+@media (max-width:900px) {
+
+    .flyer1 {
+        right:30%;
+    }
+    .flyer2 {
+        right:40%;
+    }
+    .flyer3 {
+        right:30%;
+    }
+    
+}
