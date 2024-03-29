@@ -1,7 +1,7 @@
 # Portfolio site
 
 [![Build & Deploy](https://github.com/RanajitRoy/RanajitRoy.github.io/actions/workflows/build-deploy.yml/badge.svg?branch=main)](https://github.com/RanajitRoy/RanajitRoy.github.io/actions/workflows/build-deploy.yml)
-[![Build (Dev)](https://github.com/RanajitRoy/RanajitRoy.github.io/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/RanajitRoy/RanajitRoy.github.io/actions/workflows/build.yml)
+[![Build (dev)](https://github.com/RanajitRoy/RanajitRoy.github.io/actions/workflows/build.yml/badge.svg?branch=dev)](https://github.com/RanajitRoy/RanajitRoy.github.io/actions/workflows/build.yml)
 
 LINK: <a href="https://ranajitroy.github.io/">ranajitroy.github.io</a>
 
