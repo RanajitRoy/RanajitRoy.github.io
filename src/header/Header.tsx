@@ -25,10 +25,9 @@ function Header(props:GlobalStateProp) {
                     <p>Boulder, CO</p>
                 </div>
                 <div className="Navbar">
-                    <label htmlFor="header-active"><Link className="NavBarOpt" activeClass="Active" to="home" spy={true} smooth={true} offset={-100} duration={300}>
+                    <Link className="NavBarOpt" activeClass="Active" to="home" spy={true} smooth={true} offset={-100} duration={300}>
                         Home
                     </Link>
-                    </label>
                     <Link className="NavBarOpt" activeClass="Active" to="about" spy={true} smooth={true} offset={0} duration={300}>
                         About
                     </Link>
