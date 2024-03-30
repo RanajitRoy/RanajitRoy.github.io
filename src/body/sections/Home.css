@@ -16,13 +16,35 @@
     position: absolute;
     right: 5%;
     top:30%;
-    font-size: 50px;
+    font-size: min(2em, 60px);
+    opacity: 1;
+    animation: hi-animation 1s ease-in forwards;
+}
+
+@keyframes hi-animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .HomeTextBox {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     bottom: 20%;
     right: 5%;
+    font-size: min(1.2em, 35px);
+    animation: hi-animation 1s ease-in forwards;
+}
+
+.Typed {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
 }
 
 
