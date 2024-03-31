@@ -1,0 +1,60 @@
+.Experience {
+    display: flex;
+    flex-direction: column;
+    padding-block: 5vh;
+    padding-inline: 5vw;
+}
+
+#exp-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-left: solid 4px #909090;
+    padding-left: 18px;
+}
+
+#exp-container-end {
+    height: 30px;
+    border-left: dashed 4px #909090;
+}
+
+.ExpItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.ExpItemRoleLoc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ExpItemRoleLoc::before {
+    content: "";
+    border: solid 7px;
+    border-radius: 7px;
+    left: -9px;
+    position: absolute;
+}
+
+.ExpRole {
+    margin: 0;
+    font-size: min(0.9em, 22px);
+}
+.ExpLocation {
+    margin: 10px 0 0 0;
+    font-size: min(0.8em, 16px);
+}
+.ExpCompany {
+    margin: 10px 0 0 0;
+    font-size: min(0.85em, 20px);
+}
+.ExpDuration {
+    margin: 10px 0 0 0;
+    font-size: min(0.75em, 15px);
+}
+.ExpDescription {
+    color: rgb(95, 95, 95);
+    font-size: min(0.75em, 15px);
+    margin: 10px 0 20px 0;
+}
