@@ -39,6 +39,27 @@
     width: 6vh;
 }
 
+.ScrollTop {
+    position: fixed;
+    bottom: 20px;
+    right: 3vw;
+    width: 40px;
+    height: 40px;
+    background-color: var(--theme-color-dark);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.ActiveScrollTop {
+    display: none;
+    background-color: var(--highlight-fixed) !important;
+}
+
 
 @media (max-width: 900px) {
     .Body{

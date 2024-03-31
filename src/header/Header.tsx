@@ -25,22 +25,19 @@ function Header(props:GlobalStateProp) {
                     <p>Boulder, CO</p>
                 </div>
                 <div className="Navbar">
-                    <Link className="NavBarOpt" activeClass="Active" to="home" spy={true} smooth={true} offset={-100} duration={300}>
-                        Home
-                    </Link>
-                    <Link className="NavBarOpt" activeClass="Active" to="about" spy={true} smooth={true} offset={0} duration={300}>
+                    <Link className="NavBarOpt" activeClass="Active" to="about" spy={true} smooth={true} offset={-200} duration={300}>
                         About
                     </Link>
-                    <Link className="NavBarOpt" activeClass="Active" to="education" spy={true} smooth={true} offset={0} duration={300}>
+                    <Link className="NavBarOpt" activeClass="Active" to="education" spy={true} smooth={true} offset={-100} duration={300}>
                         Education
                     </Link>
-                    <Link className="NavBarOpt" activeClass="Active" to="experience" spy={true} smooth={true} offset={0} duration={300}>
+                    <Link className="NavBarOpt" activeClass="Active" to="experience" spy={true} smooth={true} offset={-200} duration={300}>
                         Experience
                     </Link>
-                    <Link className="NavBarOpt" activeClass="Active" to="skills" spy={true} smooth={true} offset={0} duration={300}>
+                    <Link className="NavBarOpt" activeClass="Active" to="skills" spy={true} smooth={true} offset={-200} duration={300}>
                         Skills
                     </Link>
-                    <Link className="NavBarOpt" activeClass="Active" to="contact" spy={true} smooth={true} offset={0} duration={300}>
+                    <Link className="NavBarOpt" activeClass="Active" to="contact" spy={true} smooth={true} offset={-50} duration={300}>
                         Contact
                     </Link>
                 </div>
