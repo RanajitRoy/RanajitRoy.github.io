@@ -11,9 +11,11 @@ function About() {
     return (
         <div className="Section About" id="about">
             <p id="about-title">About Me</p>
-            <p id="about-text">With a passion for innovation and excellence, I am pursuing my master's degree in computer science at the University of Colorado Boulder, where I have a 4.00 GPA and a focus on Cloud Computing and Databases. I aspire to apply my skills and knowledge to solve real-world problems and create positive impact through technology.
-            <br/><br/>
-            As a highly motivated computer science graduate student at the University of Colorado Boulder, I have a strong background in a variety of cloud technologies, including GCP, AWS, Kubernetes, etc. My skill set encompasses a wide array of programming languages and tools, including Python, C/C++, C#, Javascript, Java, Jira, Git, and more. With over 2 years of hands-on experience, I have a proven track record of successfully developing software, and managing it from initial requirements gathering to a fully realized product. As a highly motivated and skilled computer science professional with a passion for innovation and excellence, I am excited about the opportunities to contribute to the success of your organization.</p>
+            <p id="about-text">
+                I am a highly motivated computer science graduate student at the University of Colorado Boulder, currently pursuing a master's degree with an impressive 4.00 GPA. With a specialized focus on Cloud Computing and Databases, I have cultivated a strong background in various cloud technologies, including GCP, AWS, and Kubernetes. With over 2 years of hands-on experience, I have a proven track record of successfully developing software, and managing it from initial requirements gathering to a fully realized product. My diverse skill set encompasses a wide array of programming languages, including Python, C/C++, C#, Javascript, and Java, as well as essential tools like Jira and Git.
+                <br/><br/>
+                Passionate about innovation and excellence, I am committed to applying my knowledge and skills to solve real-world problems and create meaningful impact through technology. Eager to embrace new challenges, I am excited about the opportunities to contribute to the success and growth of your organization.
+            </p>
             <div id="service-container">
                 <div className="AboutService">
                     <img src={software_png} alt="software"/>
