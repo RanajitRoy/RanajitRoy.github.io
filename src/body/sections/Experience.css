@@ -1,8 +1,8 @@
 .Experience {
     display: flex;
     flex-direction: column;
-    padding-block: 5vh;
-    padding-inline: 5vw;
+    padding-block: 2vh;
+    padding-inline: 4vw;
 }
 
 #exp-title {
