@@ -167,7 +167,7 @@ function Skills() {
                         <span className="SkillName">gRPC</span>
                     </div>
                     <div className="SkillItem">
-                        <img src={postgre_logo}className="SkillImg" alt="skill"/>
+                        <img src={postman_logo}className="SkillImg" alt="skill"/>
                         <span className="SkillName">Postman</span>
                     </div>
                 </div>
