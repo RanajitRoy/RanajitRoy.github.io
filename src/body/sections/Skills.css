@@ -36,10 +36,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     font-size: min(0.5em, 12px);
     margin: 10px 5px;
+    height: 75px;
 }
 
 .SkillImg {
     width: 50px;
+}
+.SkillName {
+    margin-top: 5px;
 }
