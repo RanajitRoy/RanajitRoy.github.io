@@ -5,6 +5,10 @@
     padding-inline: 5vw;
 }
 
+#exp-title {
+    margin-bottom: 40px;
+}
+
 #exp-container{
     position: relative;
     display: flex;
@@ -39,6 +43,7 @@
 
 .ExpRole {
     margin: 0;
+    font-weight: 600;
     font-size: min(0.9em, 22px);
 }
 .ExpLocation {
