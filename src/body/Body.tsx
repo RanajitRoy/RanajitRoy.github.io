@@ -20,7 +20,7 @@ function Body(props: GlobalStateProp) {
                 <label htmlFor="header-active"><ReactSVG src={menu_svg} /></label>
                 <img id="logo1" src={process.env.PUBLIC_URL+'/logo.png'} alt="logo"/>
             </div>
-            <Link className="ScrollTop" activeClass="ActiveScrollTop" to="home" spy={true} smooth={true} offset={-100} duration={300}>
+            <Link className="ScrollTop" activeClass="ActiveScrollTop" to="home" isDynamic={true} spy={true} smooth={true} offset={-100} duration={300}>
                 <ReactSVG src={up_svg} />
             </Link>
             <Home />
