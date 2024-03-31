@@ -1,6 +1,7 @@
 .Home {
     overflow: hidden;
     position: relative;
+    height: 100vh;
 }
 
 .Home > img {
