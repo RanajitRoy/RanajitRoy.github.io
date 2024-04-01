@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import style_pic from "../../assets/me_style.png"
+import style_pic from "../../assets/me_style.jpg"
 import { ReactTyped } from "react-typed";
 
 
