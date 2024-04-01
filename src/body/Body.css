@@ -9,14 +9,15 @@
 }
 
 .HomeHeader {
-    position: sticky;
+    position: fixed;
     top: 0;
     display: none;
     align-items: center;
     justify-content: center;
     height: 8vh;
     max-height: 80px;
-    background: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255,255,255,0));
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 70%, rgba(255,255,255,0));
     z-index: 1;
 }
 
@@ -35,8 +36,7 @@
 
 #menu_svg {
     aspect-ratio: 1/1;
-    max-width: 45px;
-    width: 6vh;
+    width: 30px;
 }
 
 .ScrollTop {

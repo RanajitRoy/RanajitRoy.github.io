@@ -1,5 +1,7 @@
 .Home {
     overflow: hidden;
+    display: flex;
+    justify-content: center;
     position: relative;
     height: 100vh;
 }
@@ -7,16 +9,16 @@
 .Home > img {
     position: absolute;
     bottom: 0;
-    left: -20%;
-    opacity: 20%;
+    opacity: 25%;
     height: 100vh;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%,rgba(0,0,0,0));
+    mask: linear-gradient(to bottom, rgba(0,0,0,1) 70%,rgba(0,0,0,0));
 }
 
 #hi-text {
     position: absolute;
     right: 5%;
     top:30%;
+    font-weight: 900;
     font-size: min(2em, 60px);
     opacity: 1;
     animation: hi-animation 1s ease-in forwards;
@@ -39,13 +41,14 @@
     align-items: flex-end;
     bottom: 20%;
     right: 5%;
+    font-weight: 900;
     font-size: min(1.2em, 35px);
     animation: hi-animation 1s ease-in forwards;
 }
 
 .Typed {
+    font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
 }
 
 
