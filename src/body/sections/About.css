@@ -1,7 +1,7 @@
 .About {
     display: flex;
     flex-direction: column;
-    padding-block: 5vh;
+    padding-block: 3vh;
     padding-inline: 5vw;
 }
 
