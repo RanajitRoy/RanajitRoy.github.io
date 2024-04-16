@@ -4,7 +4,6 @@ import software_png from "../../assets/software.png";
 import web_app_png from "../../assets/web-app.png";
 import backend_png from "../../assets/backend.png";
 import cloud_png from "../../assets/cloud.png";
-import { Link } from "react-scroll";
 
 
 function About() {
@@ -35,9 +34,9 @@ function About() {
                 </div>
             </div>
             <div className="HireMe">
-                <Link id="hiremetext" to="contact" spy={true} smooth={true} offset={-100} duration={300}>
-                Hire me!
-                </Link>
+                <a id="hiremetext" href="https://drive.google.com/file/d/14fKyeqLpR-giph8w7_9KJsT-e8ZyvxE4/view?usp=sharing">
+                Resume
+                </a>
                 <p ></p>
             </div>
         </div>
