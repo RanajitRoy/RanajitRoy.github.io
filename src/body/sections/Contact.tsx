@@ -31,7 +31,7 @@ function Contact() {
                     </a>
                     <a href="https://www.instagram.com/ranajitroy">
                         <div className="SocialIcon">
-                            <img src={insta_logo} alt="insta" />
+                            <img src={insta_logo} alt="instagram" />
                         </div>
                     </a>
                 </div>
