@@ -34,7 +34,7 @@ function About() {
                 </div>
             </div>
             <div className="HireMe">
-                <a id="hiremetext" href="https://drive.google.com/file/d/14fKyeqLpR-giph8w7_9KJsT-e8ZyvxE4/view?usp=sharing">
+                <a id="hiremetext" href="https://drive.google.com/file/d/16YrDPUPJvKHQ3LMiqn5dxhBcZtmh92WA/view?usp=sharing">
                 Resume
                 </a>
                 <p ></p>
