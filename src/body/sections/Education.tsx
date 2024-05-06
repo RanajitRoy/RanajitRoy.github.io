@@ -14,7 +14,7 @@ function Education() {
                         <p className="University">Univerity of Colorado Boulder</p>
                         <p className="College">College of Engineering & Applied Science</p>
                         <p className="Degree">Master of Science</p>
-                        <p className="Major">Computer Scince</p>
+                        <p className="Major">Computer Science</p>
                         <p className="Gpa">GPA: 4.00</p>
                         <p className="EduDuration">Aug 2022 - May 2024</p>
                     </div>
@@ -25,8 +25,8 @@ function Education() {
                         <p className="University">Maulana Abul Kalam Azad University of Technology</p>
                         <p className="College">Institute of Engineering & Management</p>
                         <p className="Degree">Bachelor of Technology</p>
-                        <p className="Major">Computer Scince & Engineering</p>
-                        <p className="Gpa">GPA: 8.97 (out of 10)</p>
+                        <p className="Major">Computer Science & Engineering</p>
+                        <p className="Gpa">GPA: 3.79</p>
                         <p className="EduDuration">Aug 2016 - June 2020</p>
                     </div>
                 </div>
