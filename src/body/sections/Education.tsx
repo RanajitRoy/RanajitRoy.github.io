@@ -11,7 +11,7 @@ function Education() {
                 <div className="EducationItem">
                     <img src={cu_logo} alt="CU" />
                     <div className="EducationItemInfo">
-                        <p className="University">Univerity of Colorado Boulder</p>
+                        <p className="University">University of Colorado Boulder</p>
                         <p className="College">College of Engineering & Applied Science</p>
                         <p className="Degree">Master of Science</p>
                         <p className="Major">Computer Science</p>
@@ -26,7 +26,7 @@ function Education() {
                         <p className="College">Institute of Engineering & Management</p>
                         <p className="Degree">Bachelor of Technology</p>
                         <p className="Major">Computer Science & Engineering</p>
-                        <p className="Gpa">GPA: 3.79</p>
+                        <p className="Gpa">GPA: 8.97</p>
                         <p className="EduDuration">Aug 2016 - June 2020</p>
                     </div>
                 </div>
