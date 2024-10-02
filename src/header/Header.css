@@ -1,210 +1,211 @@
 .Header {
-    background-color: var(--theme-color-dark);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    max-width: 400px;
-    width: 30vw;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+  background-color: var(--theme-color-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  max-width: 400px;
+  width: 30vw;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .CloseIcon {
-    align-self: flex-start;
-    margin: 10px 0 0 10px;
-    display: none;
+  align-self: flex-start;
+  margin: 10px 0 0 10px;
+  display: none;
 }
 
 .Profile {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    aspect-ratio: 1 / 1;
-    width: 100%;
-    max-width: 320px;
-    max-height: 320px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  max-width: 320px;
+  max-height: 320px;
 }
 
 .Profile > span {
-    position: absolute;
-    aspect-ratio: 1 / 1;
-    width: 80%;
-    border: 2px solid black;
+  position: absolute;
+  aspect-ratio: 1 / 1;
 }
-
 
 .Profile span:nth-child(1) {
-    border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
-    transition: 0.5s;
-    animation: animate 6s linear infinite;
+  width: 85%;
+  background-color: #ffffff;
+  border-radius: 32% 58% 80% 43% / 48% 32% 70% 55%;
+  transition: 0.5s;
+  animation: animate 6s linear infinite;
 }
 .Profile span:nth-child(2) {
-    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
-    transition: 0.5s;
-    animation: animate 4s linear infinite;
+  width: 83%;
+  background-color: #acacac;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate2 4s linear infinite;
 }
 .Profile span:nth-child(3) {
-    border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
-    transition: 0.5s;
-    animation: animate2 10s linear infinite;
+  width: 77%;
+  background-color: #3a3a3a;
+  border-radius: 31% 45% 60% 35% / 38% 56% 51% 87%;
+  transition: 0.5s;
+  animation: animate 15s linear infinite;
 }
 
 @keyframes animate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes animate2 {
-    0% {
-        transform: rotate(360deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
-
 
 .ProfilePic {
-    position: absolute;
-    aspect-ratio: 1 / 1;
-    width: 70%;
-    max-width: 280px;
-    max-height: 280px;
-    clip-path: circle();
+  position: absolute;
+  aspect-ratio: 1 / 1;
+  width: 70%;
+  max-width: 280px;
+  max-height: 280px;
+  clip-path: circle();
 }
 
-
 .NameTitle {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .NameTitle > p {
-    margin: 10px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .NameTitle p:nth-child(1) {
-    font-weight: bolder;
-    font-size: 1.1em;
+  font-weight: bolder;
+  font-size: 1.1em;
 }
 
 .NameTitle p:nth-child(2) {
-    font-weight: bold;
-    font-size: 0.8em;
-    color: #3a3a3a;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #3a3a3a;
 }
 .NameTitle p:nth-child(3) {
-    font-weight: 200;
-    font-size: 0.7em;
-    color: #3a3a3a;
+  font-weight: 200;
+  font-size: 0.7em;
+  color: #3a3a3a;
 }
 
 .Navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 30px 0 0 0;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 30px 0 0 0;
+  width: 100%;
 }
 
 .NavBarOpt {
-    margin: 5px 0 0 0;
-    font-size: 0.9em;
-    cursor: pointer;
-    padding: 5px 20px;
-    border-radius: 30px;
-    padding: 5px 20px;
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 30px;
+  padding: 5px 20px;
 }
 
 .NavBarOpt:hover {
-    background-color: var(--highlight-hover);
+  background-color: var(--highlight-hover);
 }
 
 .Active {
-    background-color: var(--highlight-fixed) !important;
+  background-color: var(--highlight-fixed) !important;
 }
 
 #header-active {
-    position: absolute;
-    left: 0;
-    display: none;
+  position: absolute;
+  left: 0;
+  display: none;
 }
 
 #close_svg {
-    aspect-ratio: 1/1;
-    max-width: 45px;
-    width: 8vh;
+  aspect-ratio: 1/1;
+  max-width: 45px;
+  width: 8vh;
 }
 
 @media (max-width: 900px) {
-    .Header {
-        position: absolute;
-        width: 80vw;
-    }
-    .Profile {
-        margin-top: 0;
-    }
-    .NameTitle {
-        margin-top: 0;
-    }
-    .NameTitle p:nth-child(1) {
-        font-size: 150%;
-    }
-    .NameTitle p:nth-child(2) {
-        font-size: 110%;
-    }
-    .NameTitle p:nth-child(2) {
-        font-size: 80%;
-    }
-    .NavBarOpt {
-        font-size: 120%;
-    }
-    #header-active ~ .Header {
-        transition: left 0.8s ease-out;
-    }
-    #header-active:checked ~ .Header {
-        position: fixed;
-        left: 0;
-        transition: left 0.8s ease-out;
-    }
-    .CloseIcon {
-        display: block;
-    }
-    #header-active:checked ~ #overlay {
-        display: block;
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        z-index: 9;
-    }
+  .Header {
+    position: absolute;
+    width: 80vw;
+  }
+  .Profile {
+    margin-top: 0;
+  }
+  .NameTitle {
+    margin-top: 0;
+  }
+  .NameTitle p:nth-child(1) {
+    font-size: 150%;
+  }
+  .NameTitle p:nth-child(2) {
+    font-size: 110%;
+  }
+  .NameTitle p:nth-child(2) {
+    font-size: 80%;
+  }
+  .NavBarOpt {
+    font-size: 120%;
+  }
+  #header-active ~ .Header {
+    transition: left 0.8s ease-out;
+  }
+  #header-active:checked ~ .Header {
+    position: fixed;
+    left: 0;
+    transition: left 0.8s ease-out;
+  }
+  .CloseIcon {
+    display: block;
+  }
+  #header-active:checked ~ #overlay {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
 }
 
 @media (max-height: 750px) {
-    .Navbar {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
+  .Navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (max-height: 500px) {
-    .Profile {
-        display: none;
-    }
+  .Profile {
+    display: none;
+  }
 }
