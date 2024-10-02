@@ -12,6 +12,7 @@ import {type GlobalStateProp} from "../lib/types";
 import menu_svg from "../assets/menu.svg"
 import { Link } from "react-scroll";
 import up_svg from "../assets/upward.svg";
+import Projects from "./sections/Projects";
 
 function Body(props: GlobalStateProp) {
     return (
@@ -27,6 +28,7 @@ function Body(props: GlobalStateProp) {
             <About />
             <Education />
             <Experience />
+            <Projects />
             <Skills />
             <Contact />
         </div>
