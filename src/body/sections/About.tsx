@@ -10,20 +10,21 @@ function About() {
     <div className="Section About" id="about">
       <p id="about-title">About Me</p>
       <p id="about-text">
-        I am a driven computer science graduate student at the University of
-        Colorado Boulder, currently pursuing a master's degree with a perfect
-        4.00 GPA. Specializing in Cloud Computing and Databases, I have
-        developed a solid expertise in cloud technologies such as GCP and AWS.
-        With over two years of practical experience, I have successfully led
-        software projects from initial requirements gathering to full product
-        deployment.
+        I'm a Software Engineer with a strong foundation in building scalable,
+        high-performance systems across cloud and mobile platforms. At Amazon, I
+        optimized infrastructure and data ingestion workflows, significantly
+        reducing system load and saving over $1.8M in operational costs.
+        Previously at RockyTech, I developed a mobile interface for a smart
+        wearable using React Native and Redux, implemented robust TDD practices,
+        and deployed scalable AWS infrastructure via Terraform. My past roles at
+        Square Fare and Alumnus Software involved designing optimized data
+        pipelines, developing RESTful APIs, and leading large-scale system
+        migrations from monoliths to distributed architectures using
+        technologies like Kafka, MySQL, MongoDB, and Spring Boot.
         <br />
         <br />
-        Proficient in multiple programming languages, including Java, JavaScript
-        Python, C#, and C++. I also bring experience with essential tools like
-        Jira and Git. I am passionate about leveraging technology to solve
-        complex problems and excited to contribute my skills to innovative
-        projects that make a real-world impact.
+        I'm passionate about building reliable, user-centric software solutions
+        that drive measurable impact and improve user experience.
       </p>
       <div id="service-container">
         <div className="AboutService">

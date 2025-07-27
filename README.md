@@ -15,6 +15,10 @@ The development branch is `dev`. Any current development changes should be made 
 
 Commit changes and push to GitHub to trigger the CI pipeline using GitHub actions.
 
+To start local development server, use the following command.
+
+> npm start
+
 # Deploy
 
 To deploy changes to website, create a pull request to main and merge it.
