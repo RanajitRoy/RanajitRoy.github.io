@@ -8,11 +8,25 @@ function Experience() {
       <div id="exp-container">
         <div className="ExpItem">
           <div className="ExpItemRoleLoc">
+            <p className="ExpRole">Software Development Engineer</p>
+            <p className="ExpLocation">Seattle, WA</p>
+          </div>
+          <p className="ExpCompany">Amazon</p>
+          <p className="ExpDuration">12/2024 - present</p>
+          <p className="ExpDescription">
+            I am part of the Seller Payment FinTech team. We are responsible for
+            reporting transactional information from all sales across the
+            various Amazon marketplaces. We own the backend services that power
+            the Payments dashboard in Seller Central.
+          </p>
+        </div>
+        <div className="ExpItem">
+          <div className="ExpItemRoleLoc">
             <p className="ExpRole">Software Engineer</p>
             <p className="ExpLocation">Boulder, CO</p>
           </div>
           <p className="ExpCompany">RockyTech</p>
-          <p className="ExpDuration">09/2024 - present</p>
+          <p className="ExpDuration">09/2024 - 11/2024</p>
           <p className="ExpDescription">
             I am developing a application with React Native for a smart wearable
             device with complete backend system involving automated testing and
